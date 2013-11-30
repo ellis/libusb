@@ -32,6 +32,8 @@
 #include "windows_common.h"
 #include "windows_nt_common.h"
 
+#define FACILITY_SETUPAPI 15
+
 // Global variables
 const uint64_t epoch_time = UINT64_C(116444736000000000); // 1970.01.01 00:00:000 in MS Filetime
 
